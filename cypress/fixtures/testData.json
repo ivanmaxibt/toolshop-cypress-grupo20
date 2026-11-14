@@ -1,0 +1,29 @@
+{
+  "apiUrl": "https://api-with-bugs.practicesoftwaretesting.com",
+  "validUser": {
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "welcome01"
+  },
+  "invalidUser": {
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "ClaveIncorrecta999!"
+  },
+  "checkout": {
+    "address": "Av. Colón 1234",
+    "city": "Córdoba",
+    "state": "Córdoba",
+    "country": "Argentina",
+    "postcode": "5000",
+    "paymentMethod": "cash-on-delivery"
+  },
+  "contact": {
+    "firstName": "Juan",
+    "lastName": "Pérez",
+    "email": "juan.perez.qa@test.com",
+    "subject": "webmaster",
+    "message": "Este es un mensaje de prueba automatizado para validar el formulario de contacto de Toolshop con más de cincuenta caracteres."
+  },
+  "search": {
+    "toolName": "Hammer"
+  }
+}
